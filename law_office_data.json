@@ -1,0 +1,735 @@
+{
+    "business_info": {
+        "name": "Smith & Associates Law Firm",
+        "hours": "Monday-Friday, 9 AM - 6 PM",
+        "services": [
+            "Family Law",
+            "Criminal Defense",
+            "Estate Planning",
+            "Small Business Legal Services"
+        ]
+    },
+    "consultations": {
+        "initial_fee": "First 30 minutes free",
+        "hourly_rate": "$150 per hour",
+        "requirements": [
+            "Valid ID required",
+            "Relevant case documents must be provided"
+        ]
+    },
+    "case_policies": {
+        "divorce": "Financial disclosures required from both parties.",
+        "personal_injury": "Contingency fee basis, no upfront fees.",
+        "criminal_defense": "DUI, misdemeanors, felony representation."
+    },
+    "court_fees": {
+        "family_law": "$250 starting fee",
+        "small_claims": "$75 filing fee"
+    },
+    "appointments": {
+        "booking_methods": ["Online", "Phone call"],
+        "emergency_services": "Available 24/7 for urgent criminal cases."
+    },
+    "clients": [
+        {
+            "name": "John Martinez",
+            "appointment_time": "2025-02-19 10:00 AM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "johnmartinez@example.com"
+        },
+        {
+            "name": "Sophia Clark",
+            "appointment_time": "2025-03-01 04:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Cancelled",
+            "contact": "sophiaclark@example.com"
+        },
+        {
+            "name": "Sophia Doe",
+            "appointment_time": "2025-02-22 08:00 AM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "sophiadoe@example.com"
+        },
+        {
+            "name": "Sophia Clark",
+            "appointment_time": "2025-03-19 03:00 PM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "sophiaclark@example.com"
+        },
+        {
+            "name": "John Johnson",
+            "appointment_time": "2025-03-18 01:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Cancelled",
+            "contact": "johnjohnson@example.com"
+        },
+        {
+            "name": "Jane Anderson",
+            "appointment_time": "2025-03-12 01:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "janeanderson@example.com"
+        },
+        {
+            "name": "Jane Johnson",
+            "appointment_time": "2025-03-03 08:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "janejohnson@example.com"
+        },
+        {
+            "name": "Robert Smith",
+            "appointment_time": "2025-03-13 03:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "robertsmith@example.com"
+        },
+        {
+            "name": "Emily Lee",
+            "appointment_time": "2025-03-14 09:00 AM",
+            "case_type": "Criminal Defense",
+            "status": "Pending Confirmation",
+            "contact": "emilylee@example.com"
+        },
+        {
+            "name": "Jane Clark",
+            "appointment_time": "2025-02-25 03:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "janeclark@example.com"
+        },
+        {
+            "name": "Robert Davis",
+            "appointment_time": "2025-02-18 10:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "robertdavis@example.com"
+        },
+        {
+            "name": "Sophia Doe",
+            "appointment_time": "2025-02-19 01:00 PM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "sophiadoe@example.com"
+        },
+        {
+            "name": "Sarah Anderson",
+            "appointment_time": "2025-02-25 02:00 PM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "sarahanderson@example.com"
+        },
+        {
+            "name": "Emily Martinez",
+            "appointment_time": "2025-03-18 10:00 AM",
+            "case_type": "Criminal Defense",
+            "status": "Confirmed",
+            "contact": "emilymartinez@example.com"
+        },
+        {
+            "name": "Emily Lee",
+            "appointment_time": "2025-02-18 10:00 AM",
+            "case_type": "Criminal Defense",
+            "status": "Pending Confirmation",
+            "contact": "emilylee@example.com"
+        },
+        {
+            "name": "Michael Smith",
+            "appointment_time": "2025-02-18 02:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "michaelsmith@example.com"
+        },
+        {
+            "name": "Emily Doe",
+            "appointment_time": "2025-03-16 11:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "emilydoe@example.com"
+        },
+        {
+            "name": "Emily Wilson",
+            "appointment_time": "2025-02-28 10:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "emilywilson@example.com"
+        },
+        {
+            "name": "Laura Davis",
+            "appointment_time": "2025-02-27 03:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "lauradavis@example.com"
+        },
+        {
+            "name": "Jane Wilson",
+            "appointment_time": "2025-03-18 08:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "janewilson@example.com"
+        },
+        {
+            "name": "Sophia Brown",
+            "appointment_time": "2025-03-10 03:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "sophiabrown@example.com"
+        },
+        {
+            "name": "Emily Davis",
+            "appointment_time": "2025-02-22 09:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Confirmed",
+            "contact": "emilydavis@example.com"
+        },
+        {
+            "name": "Sarah Martinez",
+            "appointment_time": "2025-02-22 02:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "sarahmartinez@example.com"
+        },
+        {
+            "name": "Robert Davis",
+            "appointment_time": "2025-03-02 11:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "robertdavis@example.com"
+        },
+        {
+            "name": "David Doe",
+            "appointment_time": "2025-03-06 08:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Pending Confirmation",
+            "contact": "daviddoe@example.com"
+        },
+        {
+            "name": "Jane Lee",
+            "appointment_time": "2025-03-14 04:00 PM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "janelee@example.com"
+        },
+        {
+            "name": "Emily Lee",
+            "appointment_time": "2025-03-15 12:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Confirmed",
+            "contact": "emilylee@example.com"
+        },
+        {
+            "name": "Jane Doe",
+            "appointment_time": "2025-02-28 01:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Rescheduled",
+            "contact": "janedoe@example.com"
+        },
+        {
+            "name": "Michael Doe",
+            "appointment_time": "2025-03-13 04:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Confirmed",
+            "contact": "michaeldoe@example.com"
+        },
+        {
+            "name": "Jane Martinez",
+            "appointment_time": "2025-02-28 04:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Cancelled",
+            "contact": "janemartinez@example.com"
+        },
+        {
+            "name": "Laura Wilson",
+            "appointment_time": "2025-03-13 10:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Pending Confirmation",
+            "contact": "laurawilson@example.com"
+        },
+        {
+            "name": "Emily Martinez",
+            "appointment_time": "2025-02-20 09:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "emilymartinez@example.com"
+        },
+        {
+            "name": "Emily Doe",
+            "appointment_time": "2025-02-19 05:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "emilydoe@example.com"
+        },
+        {
+            "name": "Sarah Brown",
+            "appointment_time": "2025-03-11 11:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Pending Confirmation",
+            "contact": "sarahbrown@example.com"
+        },
+        {
+            "name": "Michael Wilson",
+            "appointment_time": "2025-03-16 02:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Cancelled",
+            "contact": "michaelwilson@example.com"
+        },
+        {
+            "name": "Jane Smith",
+            "appointment_time": "2025-03-13 12:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Rescheduled",
+            "contact": "janesmith@example.com"
+        },
+        {
+            "name": "Michael Clark",
+            "appointment_time": "2025-03-09 08:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "michaelclark@example.com"
+        },
+        {
+            "name": "Robert Anderson",
+            "appointment_time": "2025-03-05 03:00 PM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "robertanderson@example.com"
+        },
+        {
+            "name": "David Clark",
+            "appointment_time": "2025-03-17 10:00 AM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "davidclark@example.com"
+        },
+        {
+            "name": "Jane Anderson",
+            "appointment_time": "2025-02-25 02:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Cancelled",
+            "contact": "janeanderson@example.com"
+        },
+        {
+            "name": "Robert Doe",
+            "appointment_time": "2025-03-03 01:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Rescheduled",
+            "contact": "robertdoe@example.com"
+        },
+        {
+            "name": "Daniel Lee",
+            "appointment_time": "2025-03-17 09:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "daniellee@example.com"
+        },
+        {
+            "name": "John Anderson",
+            "appointment_time": "2025-03-05 03:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "johnanderson@example.com"
+        },
+        {
+            "name": "David Davis",
+            "appointment_time": "2025-02-27 04:00 PM",
+            "case_type": "Divorce",
+            "status": "Rescheduled",
+            "contact": "daviddavis@example.com"
+        },
+        {
+            "name": "Jane Johnson",
+            "appointment_time": "2025-03-16 11:00 AM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "janejohnson@example.com"
+        },
+        {
+            "name": "John Brown",
+            "appointment_time": "2025-03-13 10:00 AM",
+            "case_type": "Divorce",
+            "status": "Rescheduled",
+            "contact": "johnbrown@example.com"
+        },
+        {
+            "name": "Sarah Brown",
+            "appointment_time": "2025-03-17 02:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Cancelled",
+            "contact": "sarahbrown@example.com"
+        },
+        {
+            "name": "Jane Anderson",
+            "appointment_time": "2025-03-12 08:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Confirmed",
+            "contact": "janeanderson@example.com"
+        },
+        {
+            "name": "David Johnson",
+            "appointment_time": "2025-02-24 08:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Pending Confirmation",
+            "contact": "davidjohnson@example.com"
+        },
+        {
+            "name": "Jane Lee",
+            "appointment_time": "2025-03-03 03:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Confirmed",
+            "contact": "janelee@example.com"
+        },
+        {
+            "name": "Daniel Brown",
+            "appointment_time": "2025-03-13 09:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "danielbrown@example.com"
+        },
+        {
+            "name": "Laura Davis",
+            "appointment_time": "2025-02-25 03:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Confirmed",
+            "contact": "lauradavis@example.com"
+        },
+        {
+            "name": "David Smith",
+            "appointment_time": "2025-03-06 05:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Rescheduled",
+            "contact": "davidsmith@example.com"
+        },
+        {
+            "name": "Emily Johnson",
+            "appointment_time": "2025-03-20 05:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Rescheduled",
+            "contact": "emilyjohnson@example.com"
+        },
+        {
+            "name": "Michael Davis",
+            "appointment_time": "2025-02-20 12:00 PM",
+            "case_type": "Divorce",
+            "status": "Pending Confirmation",
+            "contact": "michaeldavis@example.com"
+        },
+        {
+            "name": "Sarah Doe",
+            "appointment_time": "2025-03-16 05:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Pending Confirmation",
+            "contact": "sarahdoe@example.com"
+        },
+        {
+            "name": "Sophia Smith",
+            "appointment_time": "2025-03-02 05:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "sophiasmith@example.com"
+        },
+        {
+            "name": "Michael Clark",
+            "appointment_time": "2025-03-10 04:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Rescheduled",
+            "contact": "michaelclark@example.com"
+        },
+        {
+            "name": "Michael Davis",
+            "appointment_time": "2025-03-19 09:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Pending Confirmation",
+            "contact": "michaeldavis@example.com"
+        },
+        {
+            "name": "Jane Smith",
+            "appointment_time": "2025-03-03 04:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "janesmith@example.com"
+        },
+        {
+            "name": "Michael Wilson",
+            "appointment_time": "2025-02-21 04:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "michaelwilson@example.com"
+        },
+        {
+            "name": "Sarah Doe",
+            "appointment_time": "2025-02-28 10:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "sarahdoe@example.com"
+        },
+        {
+            "name": "David Lee",
+            "appointment_time": "2025-03-10 08:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Pending Confirmation",
+            "contact": "davidlee@example.com"
+        },
+        {
+            "name": "Laura Davis",
+            "appointment_time": "2025-03-05 09:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "lauradavis@example.com"
+        },
+        {
+            "name": "Michael Lee",
+            "appointment_time": "2025-03-14 08:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "michaellee@example.com"
+        },
+        {
+            "name": "Sophia Wilson",
+            "appointment_time": "2025-03-20 11:00 AM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "sophiawilson@example.com"
+        },
+        {
+            "name": "Michael Clark",
+            "appointment_time": "2025-03-08 08:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Confirmed",
+            "contact": "michaelclark@example.com"
+        },
+        {
+            "name": "Sarah Doe",
+            "appointment_time": "2025-03-04 02:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Pending Confirmation",
+            "contact": "sarahdoe@example.com"
+        },
+        {
+            "name": "John Lee",
+            "appointment_time": "2025-03-07 05:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "johnlee@example.com"
+        },
+        {
+            "name": "Sarah Lee",
+            "appointment_time": "2025-03-09 02:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Pending Confirmation",
+            "contact": "sarahlee@example.com"
+        },
+        {
+            "name": "Sophia Clark",
+            "appointment_time": "2025-02-24 05:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Confirmed",
+            "contact": "sophiaclark@example.com"
+        },
+        {
+            "name": "Sarah Wilson",
+            "appointment_time": "2025-02-20 09:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "sarahwilson@example.com"
+        },
+        {
+            "name": "David Doe",
+            "appointment_time": "2025-03-10 04:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Cancelled",
+            "contact": "daviddoe@example.com"
+        },
+        {
+            "name": "David Anderson",
+            "appointment_time": "2025-03-15 10:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Cancelled",
+            "contact": "davidanderson@example.com"
+        },
+        {
+            "name": "Laura Wilson",
+            "appointment_time": "2025-03-06 05:00 PM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "laurawilson@example.com"
+        },
+        {
+            "name": "David Smith",
+            "appointment_time": "2025-02-21 08:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Rescheduled",
+            "contact": "davidsmith@example.com"
+        },
+        {
+            "name": "Daniel Smith",
+            "appointment_time": "2025-03-17 08:00 AM",
+            "case_type": "Criminal Defense",
+            "status": "Cancelled",
+            "contact": "danielsmith@example.com"
+        },
+        {
+            "name": "Robert Brown",
+            "appointment_time": "2025-02-21 04:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "robertbrown@example.com"
+        },
+        {
+            "name": "Emily Wilson",
+            "appointment_time": "2025-03-15 08:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Pending Confirmation",
+            "contact": "emilywilson@example.com"
+        },
+        {
+            "name": "Sophia Lee",
+            "appointment_time": "2025-03-20 04:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "sophialee@example.com"
+        },
+        {
+            "name": "Daniel Brown",
+            "appointment_time": "2025-03-11 08:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "danielbrown@example.com"
+        },
+        {
+            "name": "Jane Smith",
+            "appointment_time": "2025-03-13 04:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Pending Confirmation",
+            "contact": "janesmith@example.com"
+        },
+        {
+            "name": "Sarah Smith",
+            "appointment_time": "2025-03-01 02:00 PM",
+            "case_type": "Estate Planning",
+            "status": "Rescheduled",
+            "contact": "sarahsmith@example.com"
+        },
+        {
+            "name": "Jane Johnson",
+            "appointment_time": "2025-03-12 10:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Confirmed",
+            "contact": "janejohnson@example.com"
+        },
+        {
+            "name": "Emily Clark",
+            "appointment_time": "2025-03-12 02:00 PM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "emilyclark@example.com"
+        },
+        {
+            "name": "Michael Davis",
+            "appointment_time": "2025-03-06 04:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Pending Confirmation",
+            "contact": "michaeldavis@example.com"
+        },
+        {
+            "name": "John Martinez",
+            "appointment_time": "2025-03-13 04:00 PM",
+            "case_type": "Small Business Legal Services",
+            "status": "Cancelled",
+            "contact": "johnmartinez@example.com"
+        },
+        {
+            "name": "Robert Brown",
+            "appointment_time": "2025-03-19 02:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Pending Confirmation",
+            "contact": "robertbrown@example.com"
+        },
+        {
+            "name": "Laura Brown",
+            "appointment_time": "2025-02-28 11:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Pending Confirmation",
+            "contact": "laurabrown@example.com"
+        },
+        {
+            "name": "Robert Martinez",
+            "appointment_time": "2025-03-18 11:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Pending Confirmation",
+            "contact": "robertmartinez@example.com"
+        },
+        {
+            "name": "John Wilson",
+            "appointment_time": "2025-03-10 09:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "johnwilson@example.com"
+        },
+        {
+            "name": "John Clark",
+            "appointment_time": "2025-03-06 11:00 AM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "johnclark@example.com"
+        },
+        {
+            "name": "Emily Anderson",
+            "appointment_time": "2025-03-20 01:00 PM",
+            "case_type": "Divorce",
+            "status": "Confirmed",
+            "contact": "emilyanderson@example.com"
+        },
+        {
+            "name": "Sophia Clark",
+            "appointment_time": "2025-02-21 05:00 PM",
+            "case_type": "Divorce",
+            "status": "Pending Confirmation",
+            "contact": "sophiaclark@example.com"
+        },
+        {
+            "name": "Laura Davis",
+            "appointment_time": "2025-02-21 10:00 AM",
+            "case_type": "Small Business Legal Services",
+            "status": "Confirmed",
+            "contact": "lauradavis@example.com"
+        },
+        {
+            "name": "Emily Anderson",
+            "appointment_time": "2025-03-02 04:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Pending Confirmation",
+            "contact": "emilyanderson@example.com"
+        },
+        {
+            "name": "David Smith",
+            "appointment_time": "2025-02-26 04:00 PM",
+            "case_type": "Criminal Defense",
+            "status": "Pending Confirmation",
+            "contact": "davidsmith@example.com"
+        },
+        {
+            "name": "Laura Martinez",
+            "appointment_time": "2025-03-06 03:00 PM",
+            "case_type": "Personal Injury",
+            "status": "Rescheduled",
+            "contact": "lauramartinez@example.com"
+        },
+        {
+            "name": "Daniel Clark",
+            "appointment_time": "2025-03-05 09:00 AM",
+            "case_type": "Divorce",
+            "status": "Cancelled",
+            "contact": "danielclark@example.com"
+        },
+        {
+            "name": "Michael Anderson",
+            "appointment_time": "2025-03-14 11:00 AM",
+            "case_type": "Estate Planning",
+            "status": "Cancelled",
+            "contact": "michaelanderson@example.com"
+        }
+    ]
+}
