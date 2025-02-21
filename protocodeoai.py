@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import ChatOpenAI
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Api_key_goes_here"
 #load and format data
 
 def load_data(json_path="law_office_data.json"):
